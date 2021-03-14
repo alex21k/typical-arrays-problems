@@ -22,5 +22,5 @@ exports.avg = function avg (array) {
   if (typeof(array[i]) === "number")
   summ +=array[i]; 
   }
-  let avg = summ/arr.length;
+  let avg = summ/array.length;
 }

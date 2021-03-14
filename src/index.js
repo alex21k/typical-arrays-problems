@@ -1,7 +1,7 @@
 exports.min = function min (array) {
   let minimum=0;
   for (let i=0; i< array.length; i++) {
-  if (typeof(array[i]) === "number" && min > array[i]){
+  if (typeof(array[i]) === "number" && minimum > array[i]){
   minimum = array[i];
   }
 }
